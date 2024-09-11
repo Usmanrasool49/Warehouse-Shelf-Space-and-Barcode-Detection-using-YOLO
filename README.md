@@ -29,7 +29,7 @@ This project is a web application designed to detect barcodes and empty spaces o
 
 **3. Download and set up the YOLO model:**
 
-Place your trained YOLO model weights (best.pt) in the root directory of the project. This model will be used to detect barcodes and empty spaces.
+Place your trained YOLO model weights (best-2.pt) in the root directory of the project. This model will be used to detect barcodes and empty spaces.
 
 **4. Running the Application:**
   1.  Run the FastAPI server:
@@ -83,7 +83,7 @@ The UI features a clean, responsive design with a call-to-action to upload wareh
     ├── index.html           # Frontend HTML file
     ├── static               # Folder for static files (images, stylesheets, etc.)
     ├── main.py              # Main backend code, including object detection
-    ├── best.pt              # YOLO model weights for barcode and empty-space detection
+    ├── best-2.pt              # YOLO model weights for barcode and empty-space detection
     ├── README.md            # This README file
 
 ## Future Enhancements
